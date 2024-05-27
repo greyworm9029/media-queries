@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>Media Queries</title>
+  <style>
+
+    body /* Cor de fundo padrão */ {
+      background-color: aquamarine;
+    }
+
+    /* Cor de fundo para Smartphones (319px-480px)*/
+    @media only screen and (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+    }
+
+    /* Cor de fundo para iPads e Tablets (481px-1200px) */
+    @media only screen and (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    } 
+
+    /* Cor de fundo para Notebooks (1201px-1600px) */
+    @media only screen and (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+
+    /* Cor de fundo para Desktops (1601px+)*/
+    @media only screen and (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+  </style>
+</head>
+
+<body>
+</body>
+
+</html>
